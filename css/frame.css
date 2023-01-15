@@ -1,0 +1,18 @@
+@import url("colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+:root {
+    color: var(--fg);
+    color-scheme: dark;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(8px) grayscale(65%) brightness(0.25) sepia(0.05);
+}

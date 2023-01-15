@@ -15,4 +15,6 @@ window.onfocus = function() {
         mute()
         audio.style.color = video.muted ? "#fb4934" : "#b8bb26"
     }
+
+    window.ontouchend = window.onclick
 }

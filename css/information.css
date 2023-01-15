@@ -32,7 +32,7 @@
 
 
 #audio {
-    color: var(--green);
+    color: var(--red);
     transition: all;
     transition-duration: 0.5s;
 }

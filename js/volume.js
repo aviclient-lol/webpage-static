@@ -11,7 +11,7 @@ window.onfocus = function() {
 
     video.volume = original
 
-    audio.onclick = function() {
+    window.onclick = function() {
         mute()
         audio.style.color = video.muted ? "#fb4934" : "#b8bb26"
     }
